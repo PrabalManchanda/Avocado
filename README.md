@@ -10,6 +10,7 @@ The platform analyzes real-time data, economic indicators, news sentiment, and a
 - **8+ → Expensive**  
 
 Live demo: **https://avocado.amanpurohit.com**
+![Demo](./frontend/avocado-demo.gif)
 
 ---
 
