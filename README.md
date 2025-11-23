@@ -213,7 +213,7 @@ rf_weighted.predict(...)
 ✔ SHAP values for explainability
 ✔ A GenAI prompt that explains the output of your ML model in natural language
     
-
+![Architecture Diagram](https://github.com/Vidhikalal/Avocado/blob/main/ArchitectureAvocado.png) 
 
 
 
