@@ -1,4 +1,4 @@
-# Avocado — Cost of Living Intelligence
+# Avocado 🥑 — plan your next move
 
 **Avocado** is an affordability intelligence engine that helps users understand the true cost of living in any major city. Designed for students, newcomers, families, and relocating professionals, Avocado provides a complete data-driven breakdown of all major lifestyle expenses and city conditions.
 
