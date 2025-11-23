@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: cistra-api
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY="AIzaSyDbQmel4M3svvr5OGa4kNBzTpiTcfwJnm8"
+      - PORT=8000
+      - DEBUG=True
+    volumes:
+      - ./model:/app/model:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/docs"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
